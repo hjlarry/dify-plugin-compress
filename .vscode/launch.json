@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gemini",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false,
+            "env": {
+                "GEVENT_SUPPORT": "True"
+            }
+        }
+    ]
+}

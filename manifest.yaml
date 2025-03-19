@@ -1,0 +1,28 @@
+version: 0.0.1
+type: plugin
+author: hjlarry
+name: compress
+label:
+  en_US: Compress
+  zh_Hans: 压缩
+description:
+  en_US: a tool to compress the multimodal files
+  zh_Hans: 一个压缩多模态文件的工具
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/compress.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2024-12-29T20:45:05.6997092+08:00
+verified: false
